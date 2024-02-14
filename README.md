@@ -1,3 +1,4 @@
 # logicrise
 study 
 fvgdfhdghgnhgf
+fdsdfdfgafgadfggggfsg
