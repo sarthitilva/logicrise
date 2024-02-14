@@ -1,4 +1,2 @@
 # logicrise
 study 
-fvgdfhdghgnhgf
-fdsdfdfgafgadfggggfsg
