@@ -14,30 +14,30 @@
 
 <tr>
     <td><label for="username">Username</label></td>
-    <td><input type="text" id="username"></td>
+    <td><input type="text" id="username" required></td>
 </tr>
 
 <tr>
     <td><label for="password">Password</label></td>
-    <td><input type="password" id="password"></td>
+    <td><input type="password" id="password" required></td>
 </tr>
 
 <tr>
     <td><label for="email">Email</label></td>
-    <td><input type="email" id="email"></td>
+    <td><input type="email" id="email" required></td>
 </tr>
 
 <tr>
     <td><label for="phone">phone no.</label></td>
-    <td><input type="tel" id="phone"></td>
+    <td><input type="tel" id="phone" required></td>
 </tr>
 
 <tr>
-    <td><label for="gender">Gender</label></td>
+    <td><label for="gender" >Gender</label></td>
     <td>
-        male <input type="radio" name="Gender" checked >
-        female <input type="radio" name="Gender">
-        others <input type="radio" name="Gender">
+        male <input type="radio" name="Gender" checked>
+        female <input type="radio" name="Gender" >
+        others <input type="radio" name="Gender" >
     </td>
 </tr>
 
@@ -54,22 +54,22 @@
 
 <tr>
     <td><label for="date">Date</label></td>
-    <td><input type="date" id="date"></td>
+    <td><input type="date" id="date" required></td>
 </tr>
 
 <tr>
     <td><label for="Time">Time</label></td>
-    <td><input type="time" id="email"></td>
+    <td><input type="time" id="Time" required></td>
 </tr>
 
 <tr>
     <td><label for="Week">Week</label></td>
-    <td><input type="week" id="Week"></td>
+    <td><input type="week" id="Week" required></td>
 </tr>
 
 <tr>
     <td><label for="Month">Month</label></td>
-    <td><input type="month" id="Month"></td>
+    <td><input type="month" id="Month" required></td>
 </tr>
 
 <tr>
@@ -90,7 +90,7 @@
 
 <tr>
     <td><label for="color">Color</label></td>
-    <td><input type="color" id="color"></td>
+    <td><input type="color" id="color" required></td>
 </tr>
 
 <tr>
@@ -99,6 +99,59 @@
     <textarea name="" id="" cols="50" rows="5"></textarea>
     </td>
 </tr>
+
+
+<tr>
+    <td><label for="education">education</label></td>
+    <td>
+        
+        <select multiple="" id="">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="Diploma">Diploma</option>
+            <option value="B.E">B.E</option>
+
+        </select>
+    </td>
+</tr>
+
+
+<tr>
+    <td><label for="">file</label></td>
+    <td><input type="file" id="" accept="jpg" required></td>
+</tr>
+
+<tr>
+    <td><label for="">Range</label></td>
+    <td><input type="range" id="" value="25" required></td>
+</tr>
+
+<tr>
+    <td><label for="">Reset data</label></td>
+    <td><input type="reset" id=""></td>
+</tr>
+
+<tr>
+    <td><label for="color">Submit data</label></td>
+    <td><input type="submit" id="" value="save data"></td>
+</tr>
+
+<tr>
+    <td><label for="data">data</label></td>
+    <td><input type="text" id="data" list="data"></td>
+    <datalist id="data">
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        
+        
+    </datalist>
+</tr>
+
+
+
 
 
 </table>
